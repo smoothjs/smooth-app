@@ -1,19 +1,23 @@
 {
-    "compilerOptions": {
-      "outDir": "build",
-      "sourceMap": false,
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "esModuleInterop": true,
-      "strict": true,
-      "noImplicitAny": false,
-      "strictPropertyInitialization": false,
-      "module": "commonjs",
-      "target": "es2019",
-      "rootDir": ".",
-      "skipLibCheck": true,
-      "removeComments": false,
-      "suppressImplicitAnyIndexErrors": true,
-      "lib": ["es2019", "dom"]
+  "compilerOptions": {
+    "outDir": "build",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "module": "commonjs",
+    "target": "es2019",
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "removeComments": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": ["es2019", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./build/*"]
     }
+  }
 }

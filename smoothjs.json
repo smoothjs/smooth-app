@@ -1,4 +1,10 @@
 {
-    "name": "SmoothJS",
-    "version": "0.1.2"
+  "name": "SmoothJS",
+  "version": "0.1.2",
+  "session": {
+    "secret": "keyboard cat",
+    "resave": false,
+    "saveUninitialized": true,
+    "cookie": { "secure": true }
+  }
 }
