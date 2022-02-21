@@ -8,7 +8,6 @@ async function bootstrap() {
   const appController = new AppController()
 
   JWTModule.fire()
-  EventEmitterModule.fire(appController)
 
   const app: any = await new Ignitor(appController, new ExpressAdapter()).create()
 
